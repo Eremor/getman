@@ -7,35 +7,90 @@
     <meta name="description" content="Site description for SEO">
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <img src="" alt="">
-        <p>Logotype</p>
+    <header class="page-header">
+      <input type="checkbox" id="toggle">
+      <label class="page-header__burger burger-icon" for="toggle">
+        <span class="burger-icon__first"></span>
+        <span class="burger-icon__second"></span>
+        <span class="burger-icon__third"></span>
+      </label>
+      <div class="page-header__logo logo">
+        <img src="./images/logotype.png" alt="Company logo" class="logo__img">
+        <p class="logo__text">Logotype</p>
       </div>
-      <div class="phone-number">
-        <svg>
-
-        </svg>
-        <p>(044) 390-28-33</p>
+      <div class="page-header__phone phone-number">
+        <img src="./images/icons/Телефон.svg" alt="pnone icon" class="phone-number__img">
+        <p class="phone-number__text">(044) 390-28-33</p>
       </div>
-      <nav>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
+      <nav class="page-header__nav main-nav">
+        <div class="main-nav__descktop">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#product-s">Продукты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#equipment-s">Оборудование</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#about-s">О компании</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#review-s">Отзывы</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#price-s">Цены</a>
+            </li>
+          </ul>
+        </div>
+        <div class="main-nav__mobile">
+          <p class="menu-text">Меню</p>
+          <ul class="main-nav__list main-nav__list--mobile">
+            <li class="main-nav__item">
+              <a href="#product-s">Наши продукты</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#equipment-s">Оборудование для автомобилей</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#about-s">О компании</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#price-s">Пакеты услуг</a>
+            </li>
+          </ul>
+          <ul class="icon icon--mobile">
+            <li class="icon__item">
+              <a href="#">
+                <img src="./images/icons/telegram.svg" alt="Telegram icon">
+              </a>
+            </li>
+            <li class="icon__item">
+              <a href="#">
+                <img src="./images/icons/FB.svg" alt="Facebook icon">
+              </a>
+            </li>
+            <li class="icon__item">
+              <a href="#">
+                <img src="./images/icons/youtube.svg" alt="Youtube icon">
+              </a>
+            </li>
+            <li class="icon__item">
+              <a href="#">
+                <img src="./images/icons/Insta.svg" alt="Instagram icon">
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
-      <div>
-        <select>
-          <option value="0" id="ru">RU</option>
-          <option value="1" id="uk">UK</option>
-          <option value="2" id="en">EN</option>
+      <div class="page-header__languages language">
+        <select class="language__list">
+          <option value="0" id="ru" class="language__item">RU</option>
+          <option value="1" id="uk" class="language__item">UK</option>
+          <option value="2" id="en" class="language__item">EN</option>
         </select>
       </div>
     </header>
-    <main>
+    <main class="page-main">
       <section class="home">
         <div class="home__slider slider">
           <input type="radio">
@@ -59,19 +114,15 @@
           </div>
           <div class="slider__controls">
             <div class="slider__control">
-              <svg>
-
-              </svg>
+              <img src="./images/icons/arrow-left.svg" alt="Arrow left" class="slider__arrow slider__arrow--left">
             </div>
             <div class="slider__control">
-              <svg>
-
-              </svg>
+              <img src="./images/icons/arrow-right.svg" alt="Arrow right" class="slider__arrow slider__arrow--right">
             </div>
             <b class="slider__number"></b>
           </div>
         </div>
-        <div class="feedback">
+        <div class="home__feedback feedback">
           <h3 class="feedback__title">Наши специалисты ответят на любые Ваши вопросы</h3>
           <form class="feedback__form form">
             <input type="phone" class="form__item">
@@ -84,69 +135,69 @@
         </div>
         <div class="useful-links">
           <div class="useful-links__item">
-            <img src="" alt="" class="useful-links__img">
+            <img src="./images/useful-link.jpg" alt="Useful link image" class="useful-links__img">
             <h4 class="useful-links__title">Разнообразный и богатый опыт</h4>
             <p class="useful-links__text">постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени</p>
           </div>
           <div class="useful-links__item useful-links__item--middle">
-            <img src="" alt="" class="useful-links__img">
+            <img src="./images/useful-link.jpg" alt="Useful link image" class="useful-links__img">
             <h4 class="useful-links__title">Разнообразный и богатый опыт</h4>
             <p class="useful-links__text">постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени</p>
           </div>
           <div class="useful-links__item">
-            <img src="" alt="" class="useful-links__img">
+            <img src="./images/useful-link.jpg" alt="Useful link image" class="useful-links__img">
             <h4 class="useful-links__title">Разнообразный и богатый опыт</h4>
             <p class="useful-links__text">постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени</p>
           </div>
         </div>
-        <h1 class="invisible"></h1>
+        <h1 class="invisible">Для SEO</h1>
       </section>
-      <section class="products">
-        <h2 class="products__title section-title">Наши продукты</h2>
-        <div class="products__wrapper">
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Мобильные приложения</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+      <section class="product" id="product-s">
+        <h2 class="product__title section-title">Наши продукты</h2>
+        <div class="product__wrapper">
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Мобильные приложения</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Cофт по каршерингу</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Cофт по каршерингу</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Софт по прокату</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Софт по прокату</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Бизнес под ключ</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Бизнес под ключ</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Управление каршерингом полный ввод</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Управление каршерингом полный ввод</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Продажа оборудования для каршеринга</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Продажа оборудования для каршеринга</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Биллинг, настройка и установка системы оплат</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Биллинг, настройка и установка системы оплат</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
-          <div class="products__item card">
-            <img src="" alt="" class="card__img">
-            <h5 class="card__title">Любые решения в сфере IT</h5>
-            <p class="card__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
+          <div class="product__item">
+            <img src="" alt="" class="product__img">
+            <h4 class="product__name">Любые решения в сфере IT</h4>
+            <p class="product__text">Банальные, но неопровержимые выводы, а также многие известные личности рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Сторонники тоталитаризма в науке могут быть обнародованы. Также как глубокий уровень погружения в значительной степени обусловливает важность прогресса профессионального сообщества</p>
           </div>
         </div>
       </section>
-      <section class="equipment">
+      <section class="equipment" id="equipment-s">
         <div class="equipment__left">
           <img src="" alt="" class="equipment__img">
         </div>
@@ -161,7 +212,7 @@
         </div>
       </section>
       <div class="about-review">
-        <section class="about">
+        <section class="about" id="about-s">
           <h2 class="about__title">О компании</h2>
           <b class="about__desc">Мы вынуждены отталкиваться от того, что консультация с широким активом позволяет выполнить важные задания по разработке первоочередных требований.</b>
           <p class="about__text">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.
@@ -171,7 +222,7 @@
           </p>
           <img src="" alt="" class="about__img">
         </section>
-        <section class="review">
+        <section class="review" id="review-s">
           <img src="" alt="" class="review__img">
           <div class="review__slider slider">
             <input type="radio">
@@ -181,20 +232,126 @@
               <div class="slider__area">
                 <blockquote class="slider__item">
                   <svg></svg>
-                  <p class="slider__text slider__text--review"></p>
-                  <footer class="slider__author"></footer>
+                  <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
+                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
+                </blockquote>
+                <blockquote class="slider__item">
+                  <svg></svg>
+                  <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
+                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
+                </blockquote>
+                <blockquote class="slider__item">
+                  <svg></svg>
+                  <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
+                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
                 </blockquote>
               </div>
             </div>
           </div>
         </section>
       </div>
-      <section class="services">
+      <section class="services" id="price-s">
         <h2 class="services__title section-title">Пакет услуг</h2>
         <div class="services__wrapper">
-          
+          <div class="card">
+            <h3 class="card__title">Пакет "Стандарт"</h3>
+            <p class="card__text">Не следует, однако, забывать, что базовый вектор развития влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. А еще базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, указаны как претенденты.</p>
+            <b class="card__price">3000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Пакет "Стандарт плюс"</h3>
+            <p class="card__text"> А еще сторонники тоталитаризма в науке могут быть подвергнуты целой серии независимых исследований. Для современного мира курс на социально-ориентированный национальный проект не дает нам иного выбора, кроме определения позиций, занимаемых участниками в отношении поставленных задач.</p>
+            <b class="card__price">5000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Пакет "VIP"</h3>
+            <p class="card__text"> С другой стороны, современная методология разработки создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса системы массового участия.</p>
+            <b class="card__price">50000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Пакет "Универсал"</h3>
+            <p class="card__text">В своем стремлении улучшить пользовательский опыт мы упускаем, что предприниматели в сети интернет объективно рассмотрены соответствующими инстанциями. Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня не оставляет шанса для модели развития.</p>
+            <b class="card__price">6000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Пакет "Седан"</h3>
+            <p class="card__text">Есть над чем задуматься: сторонники тоталитаризма в науке, вне зависимости от их уровня, должны быть смешаны с неуникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+            <b class="card__price">8000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
+          <div class="card">
+            <h3 class="card__title">Пакет "4х4"</h3>
+            <p class="card__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: повышение уровня гражданского сознания способствует подготовке и реализации экспериментов, поражающих по своей масштабности и грандиозности. </p>
+            <b class="card__price">10000$</b>
+            <p class="card__desc">Подробнее</p>
+          </div>
         </div>
       </section>
     </main>
+    <footer class="page-footer">
+      <div class="page-footer__company company">
+        <div class="company__logo logo">
+          <img src="./images/logotype.png" alt="Company logo" class="logo__img">
+          <p class="logo__text">Logotype</p>
+        </div>
+        <h4 class="company__target">Тут должны быть цели компании</h4>
+        <p class="company__text">Как принято считать, диаграммы связей являются только методом политического участия и своевременно верифицированы. И нет сомнений, что действия представителей оппозиции неоднозначны и будут указаны как претенденты на роль ключевых факторов.</p>
+      </div>
+      <div class="page-footer__contacts contact">
+        <h4 class="contact__title">Контакты</h4>
+        <ul class="contact__list">
+          <li class="contact__item">
+            <p class="contact__text"></p>
+            <p class="contact__text"></p>
+          </li>
+          <li class="contact__item">
+            <p class="contact__text"></p>
+            <p class="contact__text"></p>
+          </li>
+          <li class="contact__item">
+            <p class="contact__text"></p>
+            <p class="contact__text"></p>
+          </li>
+          <li class="contact__item">
+            <p class="contact__text"></p>
+            <ul class="contact__icons icon">
+              <li class="icon__item">
+                <a href="#">
+                  <img src="./images/icons/telegram.svg" alt="Telegram icon">
+                </a>
+              </li>
+              <li class="icon__item">
+                <a href="#">
+                  <img src="./images/icons/FB.svg" alt="Facebook icon">
+                </a>
+              </li>
+              <li class="icon__item">
+                <a href="#">
+                  <img src="./images/icons/youtube.svg" alt="Youtube icon">
+                </a>
+              </li>
+              <li class="icon__item">
+                <a href="#">
+                  <img src="./images/icons/Insta.svg" alt="Instagram icon">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="page-footer__feedback feedback">
+        <h3 class="feedback__title"></h3>
+        <form class="feedback__form form">
+          <input type="name" class="form__item" placeholder="Имя" required>
+          <input type="email" class="form__item" placeholder="Email" required>
+          <textarea class="form__item form__item--textarea" placeholder="Сообщение"></textarea>
+          <input type="button" class="form__btn btn btn--feedback form__btn--footer">
+        </form>
+      </div>
+    </footer>
   </body>
 </html>
