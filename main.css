@@ -49,6 +49,10 @@ li{
   list-style: none;
 }
 
+input:focus{
+  outline-style: none;
+}
+
 .btn{
   white-space: nowrap;
   vertical-align: middle;
@@ -736,7 +740,8 @@ li{
   .review__controls{
     position: absolute;
     left: 5%;
-    bottom: 25px;
+    bottom: 30%;
+    transform: translateY(-50%);
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -999,7 +1004,20 @@ li{
 
   .product__item{
     padding: 20px 25px;
-    width: 344px;
+    margin: 0 25px;
+    width: 314px;
+  }
+
+  .equipment__right{
+    padding: 20px 30px;
+  }
+
+  .about__desc{
+    padding: 0 30px;
+  }
+
+  .about__text{
+    padding: 0 30px;
   }
 
   .review__img{
@@ -1015,6 +1033,27 @@ li{
   }
 
   .card{
-    width: 364px;
+    width: 324px;
+    margin: 0 30px;
+  }
+}
+
+@media only screen and (min-height: 736px) {
+  .slider__item{
+    height: 620px;
+  }
+
+  .home__feedback{
+    top: 80px;
+  }
+}
+
+@media only screen and (min-height: 812px) {
+  .slider__item{
+    height: 700px;
+  }
+
+  .home__feedback{
+    top: 120px;
   }
 }
