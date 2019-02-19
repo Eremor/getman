@@ -199,7 +199,7 @@ li{
   .main-nav__mobile{
     position: absolute;
     top: 0;
-    width: 90%;
+    width: 95%;
     height: 100vh;
     z-index: 110;
     background-color: #3F5765;
@@ -390,7 +390,8 @@ li{
     background-color: rgba(43, 58, 66, 0.86);
     position: absolute;
     top: 55px;
-    left: 17px;
+    left: 50%;
+    transform: translate(-50%);
     padding: 10px;
     width: 250px;
   }
@@ -668,7 +669,6 @@ li{
   .review__slider{
     margin-top: -50px;
     width: 100%;
-    padding: 0 25px;
     position: relative;
   }
 
@@ -733,9 +733,9 @@ li{
 
   .review__controls{
     position: absolute;
-    left: 10%;
+    left: 5%;
     bottom: 25px;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
   }
@@ -774,7 +774,7 @@ li{
   }
 
   .card{
-    width: 253px;
+    width: 90%;
     padding: 20px 15px;
     margin: 0 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
@@ -918,7 +918,7 @@ li{
     line-height: 30px;
     text-align: left;
     color: #fff;
-    width: 100%;
+    width: 90%;
   }
 
   .page-footer__form{
@@ -939,5 +939,6 @@ li{
 
   .form__btn--footer{
     padding: 12px 50px;
+    margin-bottom: 40px;
   }
 }
