@@ -133,8 +133,8 @@
     <main class="page-main">
       <section class="home">
         <div class="home__slider slider">
-          <div class="slider__inner">
-            <ul class="slider__area">
+          <div class="slider__inner slider__inner--home">
+            <ul class="slider__area slider__area--home">
               <li class="slider__item">
                 <h2 class="slider__title">Разнообразный и богатый опыт</h2>
                 <p class="slider__text">Не следует, однако забывать, что начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки системы обучения кадров</p>
@@ -256,7 +256,7 @@
           </div>
         </div>
         <div class="product__wrapper product__wrapper--mobile slider">
-          <div class="slider__inner">
+          <div class="slider__inner slider__inner--product">
             <div class="slider__area slider__area--product">
               <div class="product__item">
                 <img src="./images/icons/products/Мобильные_приложения.svg" alt="Иконка для мобильные приложения" class="product__img">
@@ -302,7 +302,7 @@
           </div>
           <div class="slider__controls slider__controls--product">
             <div class="slider__control">
-              <svg class="slider__arrow slider__arrow--left" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
+              <svg class="slider__arrow product__pointer--left" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
                 <style type="text/css">
                   .st0{fill:none;stroke:#3F5765;}
                 </style>
@@ -313,7 +313,7 @@
               </svg>
             </div>
             <div class="slider__control">
-              <svg class="slider__arrow slider__arrow--right" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
+              <svg class="slider__arrow product__pointer--right" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
                 <style type="text/css">
 	                .st0{fill:none;stroke:#3F5765;}
                 </style>
@@ -332,7 +332,7 @@
         </div>
         <div class="equipment__right">
           <h2 class="equipment__title section-title">Оборудование</h2>
-          <b class="equipment__desc">Мы вынуждены отталкиваться от того, что консультация с широким активом позволяет выполнить важные задания по разработке первоочередных требований.</b>
+          <p class="equipment__desc">Мы вынуждены отталкиваться от того, что консультация с широким активом позволяет выполнить важные задания по разработке первоочередных требований.</p>
           <p class="equipment__text">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.
             <br>Имеется спорная точка зрения, гласящая примерно следующее: действия представителей оппозиции своевременно верифицированы. С другой стороны, существующая теория способствует подготовке и реализации поставленных обществом задач.
             <br>Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление предполагает независимые способы реализации экономической целесообразности принимаемых решений. В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик обеспечивает актуальность стандартных подходов.
@@ -349,31 +349,59 @@
             <br>Прежде всего, разбавленное изрядной долей эмпатии, рациональное мышление предполагает независимые способы реализации экономической целесообразности принимаемых решений. В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик обеспечивает актуальность стандартных подходов.
             <br>Имеется спорная точка зрения, гласящая примерно следующее: стремящиеся вытеснить традиционное производство, нанотехнологии неоднозначны и будут объективно рассмотрены соответствующими инстанциями. Банальные, но неопровержимые выводы, а также сторонники тоталитаризма в науке являются только методом политического участия и своевременно верифицированы.
           </p>
-          <img src="./images/about.jpg" alt="About img" class="about__img">
+          <div class="about__img">
+            <img src="./images/about.jpg" alt="About img">
+          </div>
         </section>
         <section class="review" id="review-s">
-          <img src="./images/review.jpg" alt="Review img" class="review__img">
+          <div class="review__img">
+            <img src="./images/review.jpg" alt="Review img">
+          </div>
           <div class="review__slider slider">
-            <input type="radio">
-            <input type="radio">
-            <input type="radio">
-            <div class="slider__inner">
-              <div class="slider__area">
-                <blockquote class="slider__item">
-                  <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+            <div class="slider__inner slider__inner--review">
+              <div class="slider__area slider__area--review">
+                <blockquote class="review__item">
+                  <div class="review__quotes">
+                    <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+                  </div>
                   <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
-                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
+                  <footer class="slider__author">Марк Твен<br>(Флорида-Каршеринг)</footer>
+                  <b class="slider__number--review">01</b>
                 </blockquote>
-                <blockquote class="slider__item">
-                  <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+                <blockquote class="review__item">
+                  <div class="review__quotes">
+                    <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+                  </div>
                   <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
-                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
+                  <footer class="slider__author">Марк Твен<br>(Флорида-Каршеринг)</footer>
+                  <b class="slider__number--review">02</b>
                 </blockquote>
-                <blockquote class="slider__item">
-                  <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+                <blockquote class="review__item">
+                  <div class="review__quotes">
+                    <img src="./images/icons/Кавычки.svg" alt="Кавычки">
+                  </div>
                   <p class="slider__text slider__text--review">Безусловно, постоянное информационно-пропагандистское обеспечение нашей деятельности предопределяет высокую востребованность своевременного выполнения сверхзадачи. Противоположная точка зрения подразумевает, что тщательные исследования конкурентов обнародованы.</p>
-                  <footer class="slider__author">Марк Твен (Флорида-Каршеринг)</footer>
+                  <footer class="slider__author">Марк Твен<br>(Флорида-Каршеринг)</footer>
+                  <b class="slider__number--review">03</b>
                 </blockquote>
+              </div>
+            </div>
+            <div class="review__controls">
+              <div class="review__control">
+                <svg class="review__left" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18.8 35.7" style="enable-background:new 0 0 18.8 35.7;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st1{fill:none;stroke:#BDD4DE;stroke-width:5;}
+                  </style>
+                  <path id="Review-Left" class="st1" d="M16.8,34.1L3.3,17.8L16.8,1.6"/>
+                </svg>
+              </div>
+              <div class="review__control">
+                <svg class="review__right" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 18.8 35.7" style="enable-background:new 0 0 18.8 35.7;" xml:space="preserve">
+                  <style type="text/css">
+                  	.st1{fill:none;stroke:#BDD4DE;stroke-width:5;}
+                  </style>
+                  <path id="Review-Right" class="st1" d="M1.9,1.6l13.6,16.2L1.9,34.1"/>
+                </svg>
               </div>
             </div>
           </div>
@@ -381,42 +409,108 @@
       </div>
       <section class="services" id="price-s">
         <h2 class="services__title section-title">Пакет услуг</h2>
-        <div class="services__wrapper">
+        <div class="services__wrapper--desktop">
           <div class="card">
             <h3 class="card__title">Пакет "Стандарт"</h3>
             <p class="card__text">Не следует, однако, забывать, что базовый вектор развития влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. А еще базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, указаны как претенденты.</p>
             <b class="card__price">3000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
           </div>
           <div class="card">
             <h3 class="card__title">Пакет "Стандарт плюс"</h3>
             <p class="card__text"> А еще сторонники тоталитаризма в науке могут быть подвергнуты целой серии независимых исследований. Для современного мира курс на социально-ориентированный национальный проект не дает нам иного выбора, кроме определения позиций, занимаемых участниками в отношении поставленных задач.</p>
             <b class="card__price">5000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
           </div>
           <div class="card">
             <h3 class="card__title">Пакет "VIP"</h3>
             <p class="card__text"> С другой стороны, современная методология разработки создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса системы массового участия.</p>
             <b class="card__price">50000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
           </div>
           <div class="card">
             <h3 class="card__title">Пакет "Универсал"</h3>
             <p class="card__text">В своем стремлении улучшить пользовательский опыт мы упускаем, что предприниматели в сети интернет объективно рассмотрены соответствующими инстанциями. Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня не оставляет шанса для модели развития.</p>
             <b class="card__price">6000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
           </div>
           <div class="card">
             <h3 class="card__title">Пакет "Седан"</h3>
             <p class="card__text">Есть над чем задуматься: сторонники тоталитаризма в науке, вне зависимости от их уровня, должны быть смешаны с неуникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
             <b class="card__price">8000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
           </div>
           <div class="card">
             <h3 class="card__title">Пакет "4х4"</h3>
             <p class="card__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: повышение уровня гражданского сознания способствует подготовке и реализации экспериментов, поражающих по своей масштабности и грандиозности. </p>
             <b class="card__price">10000$</b>
-            <p class="card__desc">Подробнее</p>
+            <p class="card__more">Подробнее</p>
+          </div>
+        </div>
+        <div class="services__wrapper--mobile slider">
+          <div class="slider__inner slider__inner--services">
+            <div class="slider__area slider__area--services">
+              <div class="card">
+                <h3 class="card__title">Пакет "Стандарт"</h3>
+                <p class="card__text">Не следует, однако, забывать, что базовый вектор развития влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. А еще базовые сценарии поведения пользователей освещают чрезвычайно интересные особенности картины в целом, однако конкретные выводы, разумеется, указаны как претенденты.</p>
+                <b class="card__price">3000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Пакет "Стандарт плюс"</h3>
+                <p class="card__text"> А еще сторонники тоталитаризма в науке могут быть подвергнуты целой серии независимых исследований. Для современного мира курс на социально-ориентированный национальный проект не дает нам иного выбора, кроме определения позиций, занимаемых участниками в отношении поставленных задач.</p>
+                <b class="card__price">5000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Пакет "VIP"</h3>
+                <p class="card__text"> С другой стороны, современная методология разработки создает необходимость включения в производственный план целого ряда внеочередных мероприятий с учетом комплекса системы массового участия.</p>
+                <b class="card__price">50000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Пакет "Универсал"</h3>
+                <p class="card__text">В своем стремлении улучшить пользовательский опыт мы упускаем, что предприниматели в сети интернет объективно рассмотрены соответствующими инстанциями. Принимая во внимание показатели успешности, экономическая повестка сегодняшнего дня не оставляет шанса для модели развития.</p>
+                <b class="card__price">6000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Пакет "Седан"</h3>
+                <p class="card__text">Есть над чем задуматься: сторонники тоталитаризма в науке, вне зависимости от их уровня, должны быть смешаны с неуникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+                <b class="card__price">8000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+              <div class="card">
+                <h3 class="card__title">Пакет "4х4"</h3>
+                <p class="card__text">Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: повышение уровня гражданского сознания способствует подготовке и реализации экспериментов, поражающих по своей масштабности и грандиозности. </p>
+                <b class="card__price">10000$</b>
+                <p class="card__more">Подробнее</p>
+              </div>
+            </div>
+          </div>
+          <div class="slider__controls slider__controls--services">
+            <div class="slider__control">
+              <svg class="slider__arrow services__left" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
+                <style type="text/css">
+                  .st0{fill:none;stroke:#3F5765;}
+                </style>
+                <g id="arrow-left" transform="translate(32.154 12.353) rotate(180)">
+              	  <path id="Path_81" class="st0" d="M25.5,0l6,6l-6,6"/>
+              	  <path id="Path_82" class="st0" d="M31.4,6H0"/>
+                </g>
+              </svg>
+            </div>
+            <div class="slider__control">
+              <svg class="slider__arrow services__right" version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 32.2 12.7" style="enable-background:new 0 0 32.2 12.7;" xml:space="preserve">
+                <style type="text/css">
+	                .st0{fill:none;stroke:#3F5765;}
+                </style>
+                <g id="arrow-right" transform="translate(0 0.353)">
+                	<path id="Path_81" class="st0" d="M25.5,0l6,6l-6,6"/>
+                	<path id="Path_82" class="st0" d="M31.4,6H0"/>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
       </section>
@@ -438,15 +532,15 @@
             <p class="contact__text">Офіс Київ: вул. Дніпровська набережна 17,</p>
           </li>
           <li class="contact__item">
-            <p class="contact__text">Клиентская поддержка 24 часа:</p>
+            <p class="contact__text"><strong>Клиентская поддержка 24 часа:</strong></p>
             <p class="contact__text">(097) 444-5-222, (044) 390-28-33</p>
           </li>
           <li class="contact__item">
-            <p class="contact__text">Электронная почта: </p>
+            <p class="contact__text"><strong>Электронная почта:</strong></p>
             <p class="contact__text">business@getmancar.com.ua</p>
           </li>
           <li class="contact__item">
-            <p class="contact__text"></p>
+            <p class="contact__text"><strong>Социальные сети</strong></p>
             <ul class="contact__icon icon">
               <li class="icon__item">
                 <a href="#">
@@ -514,11 +608,11 @@
         </ul>
       </div>
       <div class="page-footer__feedback feedback">
-        <h3 class="feedback__title"></h3>
-        <form class="feedback__form form">
-          <input type="name" class="form__item" placeholder="Имя" required>
-          <input type="email" class="form__item" placeholder="Email" required>
-          <textarea class="form__item form__item--textarea" placeholder="Сообщение"></textarea>
+        <h3 class="page-footer__feedback-title">У Вас возникли вопросы?</h3>
+        <form class="page-footer__form feedback__form form">
+          <input type="name" class="form__item form__item--footer" placeholder="Имя" required>
+          <input type="email" class="form__item form__item--footer" placeholder="Email" required>
+          <textarea class="form__item form__item--footer form__item--textarea" placeholder="Сообщение"></textarea>
           <button type="submit" class="form__btn btn btn--feedback form__btn--footer">Отправить</button>
         </form>
       </div>
