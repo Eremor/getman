@@ -548,10 +548,10 @@ input:focus{
   }
 
   .product__text{
-    font-size: 12;
+    font-size: 12px;
     font-weight: 300;
     line-height: 15px;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 40px;
   }
 
