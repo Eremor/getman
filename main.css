@@ -1049,6 +1049,10 @@ input:focus{
     width: 96%;
   }
 
+  .active{
+    background-color: #3F5765;
+  }
+
   .burger-icon{
     display: none;
   }

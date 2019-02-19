@@ -5,4 +5,12 @@ $(document).ready(function(){
     $('html, body').stop().animate({scrollTop: $($anchor.attr('href')).offset().top},1500,'easeInOutExpo');
     event.preventDefault();
   });
+
+  $(window).on("scroll", function() {
+    if($(window).scrollTop() > 50) {
+        $(".page-header").addClass("active");
+    } else {
+       $(".page-header").removeClass("active");
+    }
+});
 });
