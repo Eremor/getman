@@ -1750,3 +1750,9 @@ input:focus{
     top: 85px;
   }
 }
+
+@media only screen and (min-height: 987px) {
+  .slider__item{
+    height: 987px;
+  }
+}
