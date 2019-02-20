@@ -1107,10 +1107,17 @@ input:focus{
 
   .main-nav__item{
     margin: 0 15px;
+  }
+
+  .main-nav__item a{
     padding: 5px 9px;
   }
 
-  .main-nav__item:hover{
+  .main-nav__item:hover a{
+    background-color: #2B3A42;
+  }
+
+  .active-link{
     background-color: #2B3A42;
   }
 
