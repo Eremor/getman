@@ -360,7 +360,8 @@ input:focus{
   }
 
   .slider__title,
-  .slider__text{
+  .slider__text,
+  .slider__number--home{
     display: none;
   }
 
@@ -1075,7 +1076,7 @@ input:focus{
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 96%;
   }
 
@@ -1085,6 +1086,10 @@ input:focus{
 
   .burger-icon{
     display: none;
+  }
+
+  .page-header__logo{
+    margin-right: 4%;
   }
 
   .logo__text{
@@ -1100,6 +1105,7 @@ input:focus{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 32%;
   }
 
   .phone-number__img{
@@ -1119,6 +1125,10 @@ input:focus{
     text-align: left;
     color: #fff;
     margin-left: 15px;
+  }
+
+  .page-header__nav{
+    margin-right: 4%;
   }
 
   .main-nav__mobile{
@@ -1718,6 +1728,16 @@ input:focus{
   .form__btn--footer{
     width: 70%;
     margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-height: 667px){
+  .btn--feedback{
+    margin-bottom: 0;
+  }
+
+  .form__btn--footer{
+    margin-bottom: 30px;
   }
 }
 
