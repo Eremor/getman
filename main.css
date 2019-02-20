@@ -1122,9 +1122,14 @@ input:focus{
 
   .page-header__languages{
     display: flex;
+    position: relative;
   }
 
-  .page-header__languages select{
+  .language select {
+    display: none;
+  }
+
+  .select-selected {
     font-family: 'Montserrat';
     font-size: 18px;
     font-weight: 500;
@@ -1133,15 +1138,48 @@ input:focus{
     background-color: transparent;
     border: none;
     outline-style: none;
+    position: relative;
   }
 
-  .page-header__languages select:focus{
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    z-index: 200;
+  }
+
+  .select-language div,
+  .select-selected {
+    color: #ffffff;
+    padding: 8px 10px;
+    padding-right: 25px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .select-language {
+    position: absolute;
     background-color: #2B3A42;
+    top: 100%;
+    left: 0;
+    right: 0;
+    top: 0px;
+    z-index: 99;
   }
 
-  .language__item:focus{
+  .select-language div:hover,
+  .same-as-selected{
     color: #FF530D;
-    background-color: transparent;
+  }
+
+  .select-hide{
+    display: none;
   }
 }
 
