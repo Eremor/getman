@@ -2316,6 +2316,7 @@ input:focus{
   }
 
   .product__item{
+    margin: 0 35px;
     margin-bottom: 30px;
   }
 
@@ -2415,7 +2416,7 @@ input:focus{
     order: 3;
     margin: 0;
     width: 90%;
-    height: 100%;
+    height: 500px;
   }
 
   .review{
@@ -2423,7 +2424,7 @@ input:focus{
   }
 
   .review__img{
-    height: 100%;
+    height: 700px;
   }
 
   .review__slider{
@@ -2484,7 +2485,7 @@ input:focus{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 0;
+    padding: 50px 100px;
     background-color: #FBFBFB;
   }
 
@@ -2504,7 +2505,8 @@ input:focus{
   }
 
   .card{
-    width: 500px;
+    width: 300px;
+    margin: 0 50px;
     margin-bottom: 50px;
     padding: 30px 20px;
   }
@@ -2518,7 +2520,7 @@ input:focus{
   .card__text{
     width: 100%;
     font-size: 14px;
-    height: 140px;
+    height: 200px;
   }
 
   .card__price{
